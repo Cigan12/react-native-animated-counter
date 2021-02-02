@@ -1,11 +1,24 @@
 {
-    "name": "react-native-animated-counter",
+    "name": "react-native-simple-animated-counter",
     "version": "1.0.0",
-    "description": "animated counter for react-native",
+    "description": "simple animated counter for react-native",
     "main": "dist/index.js",
     "repository": "https://github.com/Cigan12/react-native-animated-counter.git",
     "author": "Nickolay Ivanov <darknew1998@mail.ru>",
     "license": "MIT",
+    "scripts": {
+        "start": "ts-node index.ts",
+        "build": "tsc",
+        "prepare": "yarn build"
+    },
+    "keywords": [
+        "react-native",
+        "react-component",
+        "counter",
+        "animated",
+        "ios",
+        "android"
+    ],
     "devDependencies": {
         "@react-native-community/eslint-config": "^2.0.0",
         "@types/react": "^17.0.0",
